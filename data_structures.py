@@ -15,3 +15,5 @@ print('popped element = '+ x)
 print(my_list)
 my_list.remove(1) #remove_function
 print(my_list)
+#Accessing_list_elements
+print(my_list) #Using_print_function_to print_all_elements_is_list
