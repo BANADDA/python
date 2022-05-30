@@ -21,3 +21,8 @@ for element in my_list: #Loop_to_access_all_elements_in_list
     print(element)
 print(my_list[5:8])  #Access_by_interval  
 print(my_list[::-1]) #Accessing-elements_in_reverse
+#Other_functions
+print(len(my_list)) #returns_length_of_list
+print(my_list.index(['arizona', 'ohio', 53])) #Returns_index_
+#my_list.sort(reverse=True) #Sorting_function. Not_supported_with str and int
+#print(sorted(my_list))
