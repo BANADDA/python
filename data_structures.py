@@ -17,3 +17,7 @@ my_list.remove(1) #remove_function
 print(my_list)
 #Accessing_list_elements
 print(my_list) #Using_print_function_to print_all_elements_is_list
+for element in my_list: #Loop_to_access_all_elements_in_list
+    print(element)
+print(my_list[5:8])  #Access_by_interval  
+print(my_list[::-1]) #Accessing-elements_in_reverse
